@@ -1,0 +1,92 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'MagdalenaMartinovic.ttf';
+    src: url("Font/MagdalenaMartinovic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+ 
+h1, h2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color: rgb(10, 34, 14);
+ }
+ 
+ a:link {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    line-height: 40px;
+    border: 0px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ a:hover{
+    background-color: darkgrey;
+ }
+ img {
+    height: 400px;
+ }
+
+ .ime {
+   font-family: 'MagdalenaMartinovic';
+   color:white;
+ }
+
+.navbar {
+   align-items: center;
+   margin-left: -2.5rem;
+   
+}
+
+.navbar ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+body {
+   background-image: url(Slike/background.jpg);
+   background-size: cover;
+   background-position: center;
+   color: white;
+   text-align: center;
+}
+
+.content_index h2, h3, p {
+   text-shadow: 1px 1px #000000;
+}
+
+.content_index {
+   text-align: center;
+   justify-content: center;
+}
+
+a {
+   border: none;
+   background-color: seagreen;
+}
+
+.omeni {
+   display: flex;
+   align-items: center;
+}
+
+.image {
+   align-items: center;
+}
+
+.image video {
+   width: 80%;
+   height: 80%;
+}
+
+h2.omeni_title {
+   text-align: center;
+}
+
+.content h2 {
+   color: white;
+}
